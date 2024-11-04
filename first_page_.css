@@ -23,3 +23,7 @@ nav a:hover{
 	text-decoration:underline;
 	color:SlateBlue;
 }
+img {
+    width: 600px; /* Sets the width */
+    height: 200px; /* Sets the height */
+}
