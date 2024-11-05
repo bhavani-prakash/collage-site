@@ -27,3 +27,32 @@ img {
     width: 600px; /* Sets the width */
     height: 160px; /* Sets the height */
 }
+.events figure {
+	box-shadow:0 0 10px black;
+	width:300px;
+	display:inline-block;
+    padding:10px;
+	background-color:Tomato;
+	margin: 20px;
+	border-radius:10px;
+	
+}
+ .container figure:hover  {
+	
+	 box-shadow:20px 20px 50px 10px orange inset;
+	 border-radius: 1px; 
+ }
+.events figure img {
+	width:100%;
+	height:250px;
+}
+.events figure figcaption {
+	font-size: 25px;
+	text-decoration:underline;
+	padding:7px;
+}
+
+.events figure p {
+	font-size:19px;
+	padding:7px;
+}
