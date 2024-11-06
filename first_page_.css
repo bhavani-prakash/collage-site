@@ -38,7 +38,7 @@ img {
 	
 }
 .container {
-    width: 80%; /* Adjusts with screen size */
+    width: 100%; /* Adjusts with screen size */
     padding: 2em;
 }
 .container {
