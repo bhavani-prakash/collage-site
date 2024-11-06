@@ -52,7 +52,7 @@ img {
 
 @media (min-width: 768px) {
     .item {
-        flex: 1 1 48%; /* Two items per row on larger screens */
+        flex: 1 1 30%; /* Two items per row on larger screens */
     }
 }
 /* Default styles for mobile */
