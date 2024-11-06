@@ -50,31 +50,14 @@ img {
     flex: 1 1 50%; /* Full width on smaller screens */
 }
 
-@media (min-width: 768px) {
-    .item {
-        flex: 1 1 30%; /* Two items per row on larger screens */
-    }
-}
+
 /* Default styles for mobile */
 body {
     font-size: 16px;
     padding: 10px;
 }
 
-/* Larger screens */
-@media (min-width: 768px) {
-    body {
-        font-size: 18px;
-        padding: 20px;
-    }
-}
 
-@media (min-width: 1024px) {
-    body {
-        font-size: 20px;
-        padding: 30px;
-    }
-}
 img, video {
     max-width: 100%;
     height: auto;
