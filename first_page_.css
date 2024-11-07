@@ -4,9 +4,7 @@
 }
 
 body {
-	text-align:center;
-	
-	
+	text-align:center;	
 }
 
 nav{
@@ -44,19 +42,11 @@ img {
 .container {
     display: flex;
     flex-wrap: wrap;
-}
+}           			
 
 .item {
     flex: 1 1 100%; /* Full width on smaller screens */
 }
-
-
-/* Default styles for mobile */
-body {
-    font-size: 16px;
-    padding: 10px;
-}
-
 
 img, video {
     max-width: 100%;
