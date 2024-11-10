@@ -9,11 +9,11 @@ body {
 
 nav{
 	background-color:gray;
-	padding:12px;
+	padding:8px;
 }
 nav a {
 	text-decoration:none;
-	padding:10px 25px;
+	padding:8px 20px;
 	color:#FFFFFF;
 }
 nav a:hover{
@@ -22,7 +22,7 @@ nav a:hover{
 	color:SlateBlue;
 }
 img {
-    width: 600px; /* Sets the width */
+    width: 100%; /* Sets the width */
     height: 160px; /* Sets the height */
 }
 .events figure {
@@ -40,6 +40,8 @@ img {
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;     /* Centers vertically */
 }
 .container figure:hover  {
 	
