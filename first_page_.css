@@ -38,13 +38,9 @@ img {
 .container {
     width: 100%; /* Adjusts with screen size */
     padding: 1em;
-}
-.container {
     display: flex;
     flex-wrap: wrap;
-}           			
-
-
+}
 .container figure:hover  {
 	
 	 box-shadow:20px 20px 50px 10px orange inset;
