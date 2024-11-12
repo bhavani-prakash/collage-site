@@ -26,6 +26,16 @@ img {
     width: 100%; /* Sets the width */
     height: 160px; /* Sets the height */
 }
+@media screen and (min-width: 480px) {
+  body {
+    background-color: lightgreen;
+  }
+  img {
+    width: 600px; /* Sets the width */
+    height: 160px; /* Sets the height */
+}
+	
+}
 .events figure {
 	box-shadow:0 0 10px black;
 	width:300px;
