@@ -28,10 +28,10 @@ img {
 }
 @media screen and (min-width: 480px) {
   body {
-    background-color: lightgreen;
+    background-color:#bfd8f2;
   }
   img {
-    width: 600px; /* Sets the width */
+    width: 400px; /* Sets the width */
     height: 160px; /* Sets the height */
 }
 	
