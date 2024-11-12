@@ -67,7 +67,8 @@ img {
 	box-shadow:0 0 14px black;
 	}
    .heading{
-	   background-color: rgba(0, 0, 255, 0.5); /*blue colour with 50% transparent  */ 
+	   background-color: rgba(0, 0, 255, 0.2); /*blue colour with 80% transparent  */ 
+	   width:100px
    }
 }
 
