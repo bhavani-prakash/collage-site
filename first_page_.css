@@ -7,7 +7,7 @@ body {
 	text-align:center;	
 }
 .heading{
-	padding:20px;
+	padding:30px;
 	text-align:center;
 }
 img {
@@ -66,6 +66,9 @@ img {
    .container figure:hover  {
 	box-shadow:0 0 14px black;
 	}
+   .heading{
+	   background-color: rgba(0, 0, 255, 0.5); /*blue colour with 50% transparent  */ 
+   }
 }
 
 
