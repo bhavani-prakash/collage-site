@@ -1,0 +1,16 @@
+*{
+	margin: 0;
+	padding:0;
+}
+body {
+	background: linear-gradient(to bottom right, #ccff99 0%, #66ccff 100%);
+}
+.heading{
+	text-align:center;
+	font-size:80px;
+	  background: linear-gradient(to top left, #00ffcc 0%, #6666ff 100%);
+	padding:25px;
+}
+.p1 {
+	text-align:center;
+}
