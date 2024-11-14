@@ -61,6 +61,7 @@ img {
     justify-content: center; /* Centers horizontally */
     align-items: center; 
     padding-bottom:30px;
+    background-color:#444444;
 }
 
 .para {
