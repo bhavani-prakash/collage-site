@@ -63,20 +63,23 @@ img {
 }
 .contact_US{
 	text-align:center;
-	padding:20px;
+	padding:8px;
+	padding-top:20px;
 	display:flex;
 }
 .para{
-	padding:20px;
+	padding:5px;
 	display:flex;
 }
 .para p{
+	text-align:center;
 	font-size:30px;
 	padding:5px;
 }
 .contact-US p{
+	text-align:center;
 	font-size:30px;
-	padding-top:20px;
+	padding-top:8px;
 }
 
 
