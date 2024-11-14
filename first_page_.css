@@ -56,6 +56,28 @@ img {
 	font-size:19px;
 	padding:7px;
 }
+.media_section{
+	text-align:center;
+	padding:20px;
+	display:flex;
+}
+.contact_US{
+	text-align:center;
+	padding:20px;
+	display:flex;
+}
+.para{
+	padding:20px;
+	display:flex;
+}
+.para p{
+	font-size:30px;
+	padding:5px;
+}
+.contact-US p{
+	font-size:30px;
+	padding-top:20px;
+}
 
 
 @media screen and (min-width: 480px)
