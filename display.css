@@ -5,6 +5,13 @@
 body {
 	background: linear-gradient(to bottom right, #ccff99 0%, #66ccff 100%);
 }
+.head{
+	padding:20px;
+}
+.body{
+	padding-left:20px;
+	padding-left:5px;
+}
 .heading{
 	text-align:center;
 	font-size:80px;
