@@ -25,3 +25,7 @@ background-image: linear-gradient(135deg, #8BC6EC 36%, #9599E2 85%);
 .p1 {
 	text-align:center;
 }
+@media screen and (min-width: 480px){
+	font-size:60px;
+	padding:20px;
+}
