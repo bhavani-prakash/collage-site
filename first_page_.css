@@ -56,6 +56,11 @@ img {
 	font-size:19px;
 	padding:7px;
 }
+.footer{
+	 flex-wrap: wrap;
+    justify-content: center; /* Centers horizontally */
+    align-items: center;    
+}
 
 .para {
 	text-align:center;
