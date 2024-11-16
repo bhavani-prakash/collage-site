@@ -77,11 +77,11 @@ img {
 	display:inline-block;
 }
 .para p {
-	font-size:20px;
+	font-size:15px;
 	 color: white;
 }
 .madeby p {
-	font-size:20px;
+	font-size:15px;
 	 color: white;
 }
 .madeby a {
@@ -104,10 +104,19 @@ img {
 	   background-color: rgba(0, 0, 255, 0.2); /*blue colour with 80% transparent  */ 
 	   width:200px
    }
+   .para {  
+	padding-top:15px;
+        }
+    .para p {
+	font-size:18px;
+	 color: white;
+    }
+    .madeby p {
+	font-size:18px;
+	 color: white;
+     }
+    
 
-   .madeby a {
-	color:blue;
-}	
 	
 }
 
