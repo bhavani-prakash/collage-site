@@ -84,6 +84,9 @@ img {
 	font-size:20px;
 	 color: white;
 }
+.madeby a {
+	color:rgba(0, 0, 255, 0.2);
+}
 
 @media screen and (min-width: 480px)
 {
