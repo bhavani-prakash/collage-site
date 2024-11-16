@@ -104,6 +104,11 @@ img {
 	   background-color: rgba(0, 0, 255, 0.2); /*blue colour with 80% transparent  */ 
 	   width:200px
    }
+
+   .madeby a {
+	color:blue;
+}	
+	
 }
 
 
