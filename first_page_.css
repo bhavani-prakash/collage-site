@@ -85,7 +85,7 @@ img {
 	 color: white;
 }
 .madeby a {
-	color:rgba(0, 0, 255, 0.2);
+	color:tomato;
 }
 
 @media screen and (min-width: 480px)
