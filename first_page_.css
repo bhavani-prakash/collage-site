@@ -75,7 +75,11 @@ img {
   background: #007bb5;
   color: white;
 }
-.para a{
+.media {
+	padding:20px;
+	text-align:center;
+}
+.media a{
   padding: 30px;
   font-size: 20x;
   width: 20px;
