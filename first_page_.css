@@ -100,7 +100,7 @@ img {
 	}
    .heading{
 	   background-color: rgba(0, 0, 255, 0.2); /*blue colour with 80% transparent  */ 
-	   width:400px
+	   width:400px;
    }
    .para {  
 	padding-top:5px;
