@@ -7,7 +7,7 @@ body {
 	text-align:center;	
 }
 .heading{
-	padding:20px;
+	padding:10px;
 	padding-right:0px;
 	padding-left:0px;
 	text-align:center;
@@ -100,7 +100,7 @@ img {
 	}
    .heading{
 	   background-color: rgba(0, 0, 255, 0.2); /*blue colour with 80% transparent  */ 
-	   width:200px
+	   width:400px
    }
    .para {  
 	padding-top:5px;
