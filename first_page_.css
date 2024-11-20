@@ -15,9 +15,8 @@ body {
 	width:100%;
 }
 img {
-    width: 100%; /* Sets the width */
-    height: 160px; /* Sets the height */
-}
+    width: 100%; 
+    height: 160px; 
 
 .events figure {
 	box-shadow:0 0 10px black;
@@ -30,7 +29,7 @@ img {
 	
 }
 .container {
-    width: 100%; /* Adjusts with screen size */
+    width: 100%; 
     padding: 1em;
     display: flex;
     flex-wrap: wrap;
@@ -38,7 +37,6 @@ img {
     align-items: center;     /* Centers vertically */
 }
 .container figure:hover  {
-	
 	 box-shadow:20px 20px 50px 10px orange inset;
 	 border-radius: 1px; 
  }
@@ -92,8 +90,8 @@ img {
     background-color:#bfd8f2;
         }
   img {
-    width: 600px; /* Sets the width */
-    height: 160px; /* Sets the height */
+    width: 600px;
+    height: 160px; 
      }	
    .container figure:hover  {
 	box-shadow:0 0 14px black;
