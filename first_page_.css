@@ -1,120 +1,171 @@
-*{
-	margin: 0;
-	padding:0;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-	text-align:center;	
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
 }
-.heading{
-	padding:10px;
-	padding-right:0px;
-	padding-left:0px;
-	text-align:center;
-	background-color:rgb(240, 240, 240);
-	width:100%;
+
+.heading {
+  padding: 10px;
+  background-color: rgb(240, 240, 240);
+  text-align: center;
+  width: 100%;
 }
+
 img {
-    width: 100%; 
-    height: 160px; 
+  width: 100%; /* Ensure full width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+.events {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Centers horizontally */
+  gap: 20px; /* Adds space between figures */
+  padding: 20px;
+}
 
 .events figure {
-	box-shadow:0 0 10px black;
-	width:300px;
-	display:inline-block;
-        padding:10px;
-	background: linear-gradient(to top left, #ffcc66 0%, #ff6600 95%);
-	margin: 20px;
-	border-radius:10px;
-	
+  box-shadow: 0 0 10px black;
+  width: 300px;
+  background: linear-gradient(to top left, #ffcc66 0%, #ff6600 95%);
+  border-radius: 10px;
+  overflow: hidden; /* Ensures content doesn't overflow */
+  transition: all 0.3s ease; /* Smooth hover effect */
 }
-.container {
-    width: 100%; 
-    padding: 1em;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center; /* Centers horizontally */
-    align-items: center;     /* Centers vertically */
+
+.events figure:hover {
+  box-shadow: 20px 20px 50px 10px orange inset;
+  transform: scale(1.05); /* Enlarges on hover */
+  border-radius: 1px;
 }
-.container figure:hover  {
-	 box-shadow:20px 20px 50px 10px orange inset;
-	 border-radius: 1px; 
- }
+
 .events figure img {
-	width:260px;
-	height:250px;
+  width: 260px;
+  height: 250px;
+  object-fit: cover; /* Ensures proper image scaling */
 }
+
 .events figure figcaption {
-	font-size: 25px;
-	text-decoration:underline;
-	padding:7px;
+  font-size: 25px;
+  text-decoration: underline;
+  padding: 7px;
+  color: white;
 }
 
 .events figure p {
-	font-size:19px;
-	padding:7px;
+  font-size: 19px;
+  padding: 7px;
+  color: white;
 }
-.footer{
-    flex-wrap: wrap;
-    justify-content: center; /* Centers horizontally */
-    align-items: center; 
-    padding-bottom:30px;
-    background-color:#444444;
+
+.container {
+  width: 100%;
+  padding: 1em;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-.para {
-	padding-top:20px;
-	padding-left:20px;
-	display:inline-block;
-	padding-right:10px;
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #444444;
+  color: white;
 }
+
+.para,
 .madeby {
-	padding-top:20px;
-        padding-left:40px;
-	display:inline-block;
+  padding: 10px;
+  text-align: left;
 }
-.para p {
-	font-size:15px;
-	 color: white;
-}
+
+.para p,
 .madeby p {
-	font-size:15px;
-	 color: white;
+  font-size: 15px;
+  color: white;
 }
+
 .madeby a {
-	color:tomato;
+  color: tomato;
+  text-decoration: none;
 }
 
-@media screen and (min-width: 480px)
-{
+.madeby a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+
+/* For Mobile Screens (up to 480px) */
+@media screen and (max-width: 480px) {
   body {
-    background-color:#bfd8f2;
-        }
-  img {
-    width: 600px;
-    height: 160px; 
-     }	
-   .container figure:hover  {
-	box-shadow:0 0 14px black;
-	}
-   .heading{
-	   background-color: rgba(0, 0, 255, 0.2); /*blue colour with 80% transparent  */ 
-	   width:350px;
-   }
-   .para {  
-	padding-top:5px;
-        }
-    .para p {
-	font-size:18px;
-	 color: white;
-    }
-    .madeby p {
-	font-size:18px;
-	 color: white;
-     }
-    
+    background-color: #bfd8f2;
+  }
 
-	
+  .events figure {
+    width: 90%; /* Occupies most of the screen width */
+  }
+
+  .heading {
+    background-color: rgba(0, 0, 255, 0.2);
+    width: 100%;
+  }
+
+  .para p,
+  .madeby p {
+    font-size: 14px;
+  }
 }
 
+/* For Tablet Screens (481px to 1024px) */
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .events figure {
+    width: 45%; /* Two figures per row */
+  }
 
- 
+  .events {
+    gap: 15px;
+  }
+
+  img {
+    width: 100%;
+    height: auto;
+  }
+
+  .para p,
+  .madeby p {
+    font-size: 16px;
+  }
+}
+
+/* For Larger Screens (1025px and above) */
+@media screen and (min-width: 1025px) {
+  .events {
+    justify-content: space-between; /* Spread elements evenly */
+    gap: 30px;
+  }
+
+  .events figure {
+    width: 22%; /* Four figures per row */
+  }
+
+  nav a {
+    font-size: 18px;
+    padding: 10px 20px;
+  }
+
+  .footer {
+    justify-content: space-between;
+    padding: 30px;
+  }
+}
