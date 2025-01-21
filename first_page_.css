@@ -49,8 +49,8 @@ header img {
 }
 
 .events figure img {
-  width: 260px;
-  height: 250px;
+  width: 290px;
+  height: 260px;
   object-fit: cover; /* Ensures proper image scaling */
 }
 
