@@ -18,8 +18,8 @@ body {
 }
 
 img {
-  width: 100%; /* Ensure full width */
-  height: auto; /* Maintain aspect ratio */
+  width: 600px; /* Ensure full width */
+  height: 300px; /* Maintain aspect ratio */
 }
 
 .events {
@@ -31,6 +31,7 @@ img {
 }
 
 .events figure {
+  padding:40px
   box-shadow: 0 0 10px black;
   width: 300px;
   background: linear-gradient(to top left, #ffcc66 0%, #ff6600 95%);
