@@ -69,16 +69,14 @@ header img {
   padding: 7px;
   color: white;
 }
-
 .container {
-  width: 100%;
-  padding: 1em;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  gap:20px;
+  display: flex; /* Make the container a flexbox */
+  flex-wrap: wrap; /* Allow items to wrap to the next row if needed */
+  gap: 20px; /* Add space between each figure */
+  justify-content: center; /* Center items horizontally */
+  align-items: flex-start; /* Align items at the top */
 }
+
 
 .footer {
   display: flex;
