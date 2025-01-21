@@ -21,7 +21,7 @@ body {
 header img {
   width: 70%; /* Reduce the width to 60% of the container */
   max-width: 650px; /* Ensure it doesn't exceed a specific width */
-  height: 250px; /* Maintain the aspect ratio */
+  height: auto; /* Maintain the aspect ratio */
   display: block; /* Center the image */
   margin: 0 auto; /* Center the image horizontally */
   border: 2px solid #bbbbbb; /* Add a border for a professional look */
