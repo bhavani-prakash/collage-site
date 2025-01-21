@@ -36,13 +36,12 @@ header img {
 }
 
 .events figure {
-  padding:40px
   box-shadow: 0 0 10px black;
   width: 300px;
   background: linear-gradient(to top left, #ffcc66 0%, #ff6600 95%);
   border-radius: 10px;
   overflow: hidden; /* Ensures content doesn't overflow */
-  transition: all 0.3s ease; /* Smooth hover effect */
+  transition: all 0.2s ease; /* Smooth hover effect */
 }
 
 .events figure:hover {
