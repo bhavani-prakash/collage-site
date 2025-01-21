@@ -35,10 +35,9 @@ header img {
 
 .events figure {
   box-shadow: 0 0 10px black;
-  width: 300px;
+  width: 280px;
   background: linear-gradient(to top left, #ffcc66 0%, #ff6600 95%);
   border-radius: 10px;
-  overflow: hidden; /* Ensures content doesn't overflow */
   transition: all 0.2s ease; /* Smooth hover effect */
 }
 
@@ -49,8 +48,8 @@ header img {
 }
 
 .events figure img {
-  width: 290px;
-  height: 260px;
+  width: 260px;
+  height: 245px;
   object-fit: cover; /* Ensures proper image scaling */
 }
 
