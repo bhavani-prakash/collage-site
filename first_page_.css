@@ -24,10 +24,7 @@ body {
   border-bottom: 2px solid #ccc; /* Adds a subtle separation */
 }
 
-img {
-  width: 600px; /* Ensure full width */
-  height: 300px; /* Maintain aspect ratio */
-}
+
 
 .events {
   display: flex;
