@@ -39,6 +39,7 @@ header img {
   background: linear-gradient(to top left, #ffcc66 0%, #ff6600 95%);
   border-radius: 10px;
   transition: all 0.2s ease; /* Smooth hover effect */
+  margin:10px;
 }
 
 .events figure:hover {
@@ -48,8 +49,8 @@ header img {
 }
 
 .events figure img {
-  width: 260px;
-  height: 245px;
+  width:100%;
+  height: 250px;
   object-fit: cover; /* Ensures proper image scaling */
 }
 
